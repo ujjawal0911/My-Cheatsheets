@@ -1,0 +1,61 @@
+ jk - down and up
+ hl - left and right
+
+w - hop forward by a word
+b - hop backward by a word
+
+y - copy a charachter
+	- w - a word : yw
+	- y - a line : yy
+
+d - delete a charachter
+	- w -> a word : dw
+	- d -> a line : dd
+
+u - undo
+
+
+V -> Visual Line Mode : highlightes complete line
+v -> Visual Mode : Not complete Line
+
+
+P -> Paste a line above current cursor
+p -> Paste a line below current cursor
+
+O -> Into insert mode with new line above
+o -> Into insert mode with new line below
+
+
+A (Shift + A) -> Into insert mode at the end of the line
+I (Shift + I) -> Into insert mode at then begining of the line
+
+
+
+
+VERTICAL FILE MOVEMENTS:->
+	-> gg : To the top of the file
+	-> G (Shift + G) : To the bottom of the file
+
+	-> :line-number : move to particular line number
+	-> x + movement(h/j/k/l) : move that many lines up or down
+
+	-> } : closing braces go down - jump to each empty line
+	-> { : opening braces go up - jump to each empty line 
+
+
+NETRW - FILE EXPLORATION VIM: ->
+	-> Ex : Normal exploring
+	-> Sex/Vex/Tex: Split Tab, Vertical Tab, New Tab
+
+	-> gt : Shift between tabs
+	-> {num}gt : Shift to that tab
+
+	-> d : Create Directory
+	-> % : Create File
+	-> D : Delete File/Directory
+
+
+
+
+whatever you delete goes to same register as yy
+
