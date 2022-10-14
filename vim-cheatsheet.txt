@@ -1,8 +1,9 @@
- jk - down and up
- hl - left and right
+BASIC MOVEMENTS:->
+	jk - down and up
+	hl - left and right
 
-w - hop forward by a word
-b - hop backward by a word
+	w - hop forward by a word
+	b - hop backward by a word
 
 y - copy a charachter
 	- w - a word : yw
@@ -55,7 +56,16 @@ NETRW - FILE EXPLORATION VIM: ->
 	-> D : Delete File/Directory
 
 
+NERDTREE: ->
+    -> i - horizontal strip
+    -> s - vertical strip
+    -> o - to open the file
+    -> t - open in new tab
+    -> T - open in new tab silently
+    -> m - menu
 
+RUNNING A TERMINAL INSIDE VIM
+    -> use CTRL+Z to pause the vim process and continue terminal
+    -> fg to go back to VIM
 
-whatever you delete goes to same register as yy
 

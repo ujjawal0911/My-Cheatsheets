@@ -4,3 +4,13 @@
 FILE MODIFICATIONS:->
 	-> Rename
 		-> mv oldname newname
+
+
+GREP:->
+	-> Search a particular string or pattern in a file.
+
+	-> grep 'word' filename
+
+	-> grep -i 'bar' file1
+
+	-> grep -R 
